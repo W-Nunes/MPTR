@@ -29,7 +29,7 @@ Para simular o comportamento de uma turbina real, criamos um circuito virtual na
 
 A escolha de pinos ADC é crucial, pois permite ao ESP32 "ler" uma faixa de valores contínuos (de 0 a 4095), e não apenas "ligado" ou "desligado".
 
-!circuito.png
+![Screenshot do circuito.](circuito.png)
 
 ---
 
