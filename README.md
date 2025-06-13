@@ -1,5 +1,5 @@
-Monitoramento Preditivo de Turbinas de Refrigeração
-Projeto de solução digital para o desafio da Hermes Reply, focado na prevenção de falhas em linhas de produção industrial através de IoT e Machine Learning.
+Monitoramento Preditivo de Turbinas de Refrigeração  
+Projeto de solução digital para o desafio da Hermes Reply, focado na prevenção de falhas em linhas de produção industrial através de IoT e Machine Learning.  
 📖 Sobre o Projeto
 Este projeto descreve uma solução digital para o monitoramento e manutenção preditiva de turbinas de congelamento em câmaras frias. O sistema utiliza sensores de IoT (simulados via Wokwi e ESP32) para coletar dados de áudio e vibração em tempo real.
 
