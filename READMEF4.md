@@ -1,4 +1,4 @@
-# Desafio Hermes Reply - Fase 4: Simulação e Análise de Dados
+# Desafio Fase 4: Simulação e Análise de Dados
 
 **Projeto:** Monitoramento Preditivo de Turbinas de Refrigeração<br>
 
@@ -75,12 +75,12 @@ Os dados coletados foram salvos num ficheiro `dados_coletados.csv` e analisados 
 
 Este gráfico mostra a evolução das leituras ao longo do tempo, sendo ideal para identificar tendências.
 
-**[grafico_linha.png]**
+![Gráfico de linha.](grafico_linha.png)
 
 #### 5.2 Gráfico de Dispersão: Correlação Vibração vs. Ruído
 
 Este gráfico é fundamental para entender a relação entre as duas variáveis. Cada ponto representa uma leitura, e a sua cor indica o status da turbina, permitindo identificar visualmente os "clusters" (agrupamentos) de cada estado operacional.
 
-**[grafico_dispersao.png]**
+![Screenshot do gráfico de dispersão.](grafico_dispersao.png)
 
 Esta análise inicial confirma que o sistema de coleta é funcional e que os dados gerados são relevantes e suficientes para treinar um futuro modelo de machine learning para classificar o estado da turbina automaticamente.
