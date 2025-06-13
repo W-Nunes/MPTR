@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Renan Nunes",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -20.5, "left": -153.8, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot2", "top": -49.3, "left": 172.6, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "pot1:VCC", "red", [ "h0" ] ],
+    [ "pot1:SIG", "esp:27", "yellow", [ "v0" ] ],
+    [ "pot2:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "pot2:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [ "pot2:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "pot2:SIG", "esp:26", "yellow", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
